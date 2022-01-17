@@ -17,6 +17,8 @@ border-radius: 50%;
 }
 
 h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+   
     text-align: center;
     padding: 30px;
     color: whitesmoke
@@ -24,8 +26,25 @@ h1{
     
 }
 
-.links_item{
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+   
     text-align: center;
+    padding: 10px;
+    color: whitesmoke
+       
+    
+}
+h2Container{
+    width: 80%;
+    height: auto;
+}
+h1Container{
+    width: 80%;
+    height: auto;
+}
+.links_item{
+text-align: center;
 margin-top: 20px;
 padding: 20px;
 border: 1px solid white;
@@ -35,17 +54,27 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 border-radius: 40px;
+color: #fff;
 }
-p1{
-    text-align: h1;
-    padding: 70px;
-    font-size: 30px;
-    color: whitesmoke   
+
+hr{
+    max-width: 66%;
 }
+
+.footer{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    max-width: auto;
+    max-height: auto;
+    color: whitesmoke
+}
+
 a:hover {
     color: #000;
     background: #fff;
     }
+
+      
 
 
     
